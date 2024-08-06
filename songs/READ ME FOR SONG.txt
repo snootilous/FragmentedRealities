@@ -1,0 +1,36 @@
+OK HI this is snoot your one and only codename fag fag homo fag
+
+so the way that song files work in codename is p simple
+----
+
+[song name]
+|-> charts
+|   |-> [difficulty].json
+|-> song
+|   |-> Voices.ogg
+|   |-> Inst.ogg
+|-> scripts (optional)
+|   |-> [script].hx
+
+File directories should look like this for:
+charts
+
+[MOD]/songs/[songname]/charts
+---
+example:
+faggotrons/songs/boner/charts
+
+same should go for the song:
+
+[MOD]/songs/[songname]/song
+---
+example:
+awesomesex/songs/evil/song
+
+-----------
+
+Each song has a meta.json file.
+
+that's where it stores the information for things like BPM, Stages, Difficulties, Icon, Display name, and other snoz.
+It can be created within the chart editor.
+If you import a psych chart in it, be SURE to change the bpm in the metadata or else it will automatically be set to 100.
